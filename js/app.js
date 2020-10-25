@@ -19,16 +19,20 @@ const getRequest = () => {
 				const ul = document.createElement('ul')
 				const li = document.createElement('li')
 				const a = document.createElement('a')
+				const span = document.createElement('span')
 
 				li.innerHTML = user.login
 				const repos = user.repos_url
+				span.innerHTML = repos
 
-				a.setAttribute('href', repos)
+				a.setAttribute('href', '#')
 				ul.setAttribute('class', 'links')
 				li.setAttribute('class', 'link_item')
 
+				
 				append(li, a)
 				append(ul, li)
+				append(container, span)
 				append(container, ul)
 			})
 		})
