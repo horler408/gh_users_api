@@ -19,7 +19,9 @@ body {
   background: #222;
   color: #fff;
   margin: 20px;
+  padding: 20px;
   font-size: 20px;
+  border: 2px solid #222;
 }
 
 .links a {

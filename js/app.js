@@ -25,7 +25,7 @@ const getRequest = () => {
 				const repos = user.repos_url
 				span.innerHTML = repos
 
-				a.setAttribute('href', '#')
+				a.setAttribute('href', 'repos')
 				ul.setAttribute('class', 'links')
 				li.setAttribute('class', 'link_item')
 
